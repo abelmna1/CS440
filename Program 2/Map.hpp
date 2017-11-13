@@ -15,7 +15,7 @@
 #include <functional>
 
 namespace cs540{
-									//INCREMENT ITERATORS WITH PREFIX-----------------
+									
     template<typename Key_T, typename Mapped_T>
     class SkipNodeBase{
     public:
@@ -47,19 +47,6 @@ namespace cs540{
         SkipNodeBase<Key_T, Mapped_T>** backNodes;
         ValueType nodePair;
     };
-
-	/*template<typename Key_T, typename Mapped_T>
-	class InsertionPair{
-		public:
-			InsertionPair();
-			InsertionPair(Skip
-
-
-	}*/
-
-
-
-
 
  template<typename Key_T, typename Mapped_T>
   class SkipList{
