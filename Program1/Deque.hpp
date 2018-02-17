@@ -2,7 +2,6 @@
 #define DEQUE_HPP
 
 #include <stdlib.h>										
-//#include <cstdlib.h>
 #include <stdio.h>
 #include <iostream>
 #include <string>
